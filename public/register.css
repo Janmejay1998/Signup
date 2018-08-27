@@ -1,0 +1,75 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url("0e9e8812f01f82650833264673bf51ed.jpg");
+	background-repeat:no-repeat;
+    background-size:cover;
+    font-family: sans-serif;
+}
+h2 
+{
+    margin: 0;
+	padding: 0 0 20px;
+	color: #3b8fee;
+    text-align: center;
+}
+.entry
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 670px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.entry p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+.entry input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.entry input[type="text"],
+.entry input[type="text"],
+.entry input[type="password"],
+.entry input[type="text"],
+.entry input[type="text"],
+.entry input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(187, 20, 20, 0.575);
+}
+.entry input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.entry input[type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}

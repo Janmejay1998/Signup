@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src = "profile.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="profile.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <span>
+    Hello <%= loginData.uname %> ! What's up
+   </span>
+   <!--
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <%= JSON.stringify(loginData) %> -->
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'BIO')">Bio</button>
+  <button class="tablinks" onclick="openCity(event, 'BIRTHDAY')">Birthday</button>
+  <button class="tablinks" onclick="openCity(event, 'AUDIO')">Audio</button>
+</div>
+
+<div id="BIO" class="tabcontent">
+  <h3>Your Bio</h3>
+  <p><strong>Shraddha Patel.</strong> 
+  The girl I saw on instagram was very cute and beautiful like an angel.<br/> 
+  Her eyes , its just like seeing a pearl in the ocean.<br/>
+  Her face is as beautiful as a fairy in heaven.<br/>
+  In the past days since i started chatting with you, I've observed that you're innocent and kind as cinderella.<br/>
+  You have a very friendly nature which enchanted me. Whenever others are happy you're happy.<br/> 
+  This shows that your happiness lies in others happiness.<br/> 
+  In my tough days you supported me a lot whenever I was sad.<br/> 
+The crazy girl who want to become an air hostess.<br/>
+Your Dedication and Hardworking enthusiasm will take you to your dream job.<br/>
+May god bless you and all your dreams come true dear.<br/>
+When I saw you for the first time on instagram, you sent me your pic wearing specs.. you were looking so pretty and adorable.<br/>
+You are just as your name is Shraddha (meaning -> Faith)<br/>
+It was written that you're faithful among your friends, Cousins, family members, and your career.<br/> 
+Do you know, I trust you more than me.<br/> 
+The word "Shraddha" was used and defined by the Holy saint - Sai Baba.<br/>
+Since, I started chatting with you.!!<br/> 
+</p>
+</div>
+
+<div id="BIRTHDAY" class="tabcontent">
+    <img src="IMG_20180826_131018.jpg" class="picture">
+  <h3>Happy Birthday</h3>
+  <p>
+    <strong>1></strong> Happy birthday.<br/> 
+    On your special day, I wish you good luck.<br/> 
+    I hope this wonderful day will fill up your heart with joy and blessings.<br/>
+    Have a fantastic birthday, celebrate the happiness on every day of your life.<br/>
+    <br/>
+    <br/>
+    <strong>2></strong> Life is about finding that one person whom you can call at any time and shair anything.<br/>   
+    A person whom you can trust with trust with your life and a person who is always there.<br/>                             
+    The rest is just a temporary circus<br/>
+    <br/>
+    <br/>
+    <pre>
+    <strong>3></strong> Best friends                                    
+    Always ready to share                                                                                                     <strong>5></strong> It's good to have a person who never forget your birthday and make  that day special. 
+    Most precious things but                                                                                                   But having a person who make you feel special everyday is such a blessing.
+    Never ready to share a 
+    Bit of chocolate with u 
+    </pre>
+    <strong>4></strong> Honestly<br/>
+    I feel really happy when <br/>
+    Share every smile thing with<br/>
+    Me.<br/>
+  </p> 
+</div>
+
+<div id="AUDIO" class="tabcontent">
+  <h3>Navaratri Special Song</h3>
+  <p>Chogada Tara =></p>
+  <div class = "Audio1">
+    <audio controls>
+        <source src="01 - Chogada (320 Kbps) - DownloadMing.SE.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  <h3>Birthday Special Song</h3>  
+  <p>Happy Birthday =></p>
+  <div class = "Audio2">
+      <audio controls>
+          <source src="04. Happy Birthday - Sachin Sanghvi, Jigar Saraiya, Varun Dhavan & D Soldierz.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+</div>  
+  <a href="/">Logout</a>
+  
+</body>
+</html>
