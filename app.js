@@ -13,15 +13,14 @@ const url = 'mongodb://janmejay:shraddha1999@ds229312.mlab.com:29312/rj';
 const dbName = 'rj';
 
 
-
 // Use connect method to connect to the server
 MongoClient.connect(url, function(err, client) {
   console.log("Connected successfully to server");
    dbo = client.db(dbName);
    
  
-  app.listen(3000, function(){
-    console.log("server running on port 3000");
+  app.listen(process.env.PORT||5000, function(){
+    console.log("server running on port 5000");
   });
 });
 
