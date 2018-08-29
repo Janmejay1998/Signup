@@ -5,7 +5,14 @@ body
 {
 	margin: 0;
 	padding: 0;
+	/* The image used */
 	background-image: url("Best-Anime-Wallpapers.jpg");
+
+	/* Full height */
+    height: 100%; 
+
+	/* Center and scale the image nicely */
+    background-position: center;
 	background-repeat:no-repeat;
     background-size:cover;
     font-family: sans-serif;
