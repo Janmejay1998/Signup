@@ -1,10 +1,22 @@
 * {
     box-sizing: border-box;
 }
+body, html {
+    height: 100%;
+    margin: 0;
+}
 body { 
     margin: 0;
-	padding: 0;
-	background-image: url("abstract-blur-close-up-268563.jpg");
+    padding: 0;
+    
+    /* The image used */
+    background-image: url("abstract-blur-close-up-268563.jpg");
+    
+    /* Full height */
+	height: 100%; 
+	
+	/* Center and scale the image nicely */
+    background-position: center;
 	background-repeat:no-repeat;
     background-size:cover;
     font-family: Arial;
