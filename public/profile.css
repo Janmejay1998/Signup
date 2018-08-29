@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+body, html {
+    height: 100%;
+    margin: 0;
+}
 
 body { 
     margin: 0;
@@ -75,13 +79,13 @@ span {
  {
     position: absolute;
 	top: 25%;
-	left: 20%;
+	left: 25%;
  } 
  .Audio2
  {
     position: absolute;
 	top: 37%;
-	left: 20%;
+	left: 25%;
  }
  /* Style the Logout content */
  a
