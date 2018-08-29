@@ -128,3 +128,27 @@ h2
 	font-weight: bold;
 	text-decoration: none;
 }
+@media screen and (max-height: 600px) {
+	.loginBox {
+		margin-top: 0;
+		top: 10px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.loginBox {
+		left: 5px;
+		margin-left: 5px;
+		min-width: 283px;
+		right: 10px;
+		margin-bottom: 10px;
+		width: auto;
+	}
+	.loginBox input {
+		width: 140px;
+	}
+	/*.socmed-login .socmed-btn i {
+		margin-right: 5px;
+		width: 19px;
+	}*/
+}
