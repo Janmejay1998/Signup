@@ -18,9 +18,6 @@ body {
     background-size:cover;
     font-family: Arial;
 }
-pre{
-    font-family: Arial;
-}
 /* Style the tab */
 .tab {
     overflow: hidden;
