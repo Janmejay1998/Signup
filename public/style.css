@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-@media only screen and (max-width: 400px) {
+/*@media only screen and (max-width: 400px) {
     body {
         background-image: url("rsz_21best-anime-wallpapers.jpg");
         width: auto;
@@ -20,7 +20,7 @@
         background-position: center;
 
     }
-}
+}*/
 body, html {
     height: 100%;
     margin: 0;
