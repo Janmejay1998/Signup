@@ -78,14 +78,14 @@ span {
  .Audio1
  {
     position: absolute;
-	top: 29%;
-	left: 25%;
+	top: 39%;
+	left: 0%;
  } 
  .Audio2
  {
     position: absolute;
-	top: 41%;
-	left: 25%;
+	top: 64%;
+	left: 0%;
  }
  /* Style the Logout content */
  a
@@ -98,49 +98,68 @@ span {
     font-weight: bold;
     text-decoration: none;
  }
- @media screen and (max-height: 600px){
-    .picture
-    {
-        
-        height: 200px;
-        position: absolute;
-        top: 230%;
-        left: 20%;
-    }
-    .Audio1
-     {
-        position: absolute;
-        top: 70%;
-        left: 0%;
-     } 
-     .Audio2
-     {
-        position: absolute;
-        top: 105%;
-        left: 0%;
-     }
-    
-    
-    }
-    @media screen and (max-width: 400px){
-    .picture
-    {
-        width: 200px;
-        position: absolute;
-        top: 230%;
-        left: 20%;
-    }
-    .Audio1
-     {
-        position: absolute;
-        top: 70%;
-        left: 0%;
-     } 
-     .Audio2
-     {
-        position: absolute;
-        top: 105%;
-        left: 0%;
-     }
-    
-    }
+@media screen and (max-height: 600px){
+.picture
+{
+	
+	height: 200px;
+	position: absolute;
+	top: 150%;
+	left: 20%;
+}
+.Audio1
+ {
+    position: absolute;
+	top: 55%;
+	left: 0%;
+ } 
+ .Audio2
+ {
+    position: absolute;
+	top: 80%;
+	left: 0%;
+ }
+a
+ {
+    position: absolute;
+	top: 22%;
+	right: 2%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+ }
+
+
+}
+@media screen and (max-width: 400px){
+.picture
+{
+	width: 200px;
+	position: absolute;
+	top: 150%;
+	left: 20%;
+}
+.Audio1
+ {
+    position: absolute;
+	top: 55%;
+	left: 0%;
+ } 
+ .Audio2
+ {
+    position: absolute;
+	top: 80%;
+	left: 0%;
+ }
+a
+ {
+    position: absolute;
+	top: 22%;
+	right: 2%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+ }
+}
